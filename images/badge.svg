@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89.5 93.46">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 13.24px;
+      }
+
+      .cls-1, .cls-2 {
+        font-family: Poppins-Regular, Poppins;
+      }
+
+      .cls-2 {
+        font-size: 7.36px;
+        letter-spacing: .2em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <text class="cls-1" transform="translate(12.63 41.99) rotate(-79.88)"><tspan x="0" y="0">S</tspan></text>
+      <text class="cls-1" transform="translate(14.48 33) rotate(-64.27)"><tspan x="0" y="0">T</tspan></text>
+      <text class="cls-1" transform="translate(18.27 25.3) rotate(-47.82)"><tspan x="0" y="0">U</tspan></text>
+      <text class="cls-1" transform="translate(25.23 17.87) rotate(-29.82)"><tspan x="0" y="0">D</tspan></text>
+      <text class="cls-1" transform="translate(34.93 12.94) rotate(-15.99)"><tspan x="0" y="0">I</tspan></text>
+      <text class="cls-1" transform="translate(39.48 11.37) rotate(-1.45)"><tspan x="0" y="0">O</tspan></text>
+      <text class="cls-1" transform="translate(51.35 11.7) rotate(13.27)"><tspan x="0" y="0"> </tspan></text>
+      <text class="cls-1" transform="translate(56.36 12.74) rotate(26.95)"><tspan x="0" y="0">A</tspan></text>
+      <text class="cls-1" transform="translate(65.35 17.54) rotate(44.66)"><tspan x="0" y="0">U</tspan></text>
+      <text class="cls-1" transform="translate(72.48 24.95) rotate(61.75)"><tspan x="0" y="0">R</tspan></text>
+      <text class="cls-1" transform="translate(76.86 33.13) rotate(80.05)"><tspan x="0" y="0">O</tspan></text>
+      <text class="cls-1" transform="translate(78.5 44.66) rotate(98.15)"><tspan x="0" y="0">R</tspan></text>
+      <text class="cls-1" transform="translate(76.88 54) rotate(113.72)"><tspan x="0" y="0">E</tspan></text>
+      <text class="cls-1" transform="translate(6.96 61.14) rotate(59.58)"><tspan x="0" y="0">D</tspan></text>
+      <text class="cls-1" transform="translate(14.36 72.24) rotate(43.17)"><tspan x="0" y="0">E</tspan></text>
+      <text class="cls-1" transform="translate(22.43 79.21) rotate(27.99)"><tspan x="0" y="0">S</tspan></text>
+      <text class="cls-1" transform="translate(32.85 84) rotate(15.32)"><tspan x="0" y="0">I</tspan></text>
+      <text class="cls-1" transform="translate(39.7 85.83) rotate(.93)"><tspan x="0" y="0">G</tspan></text>
+      <text class="cls-1" transform="translate(54.2 85.28) rotate(-18.16)"><tspan x="0" y="0">N</tspan></text>
+      <text class="cls-1" transform="translate(66.66 80.43) rotate(-35.42)"><tspan x="0" y="0">S</tspan></text>
+      <text class="cls-2" transform="translate(33.94 38.59)"><tspan x="0" y="0">ESTD</tspan><tspan x="0" y="14.72">2023</tspan></text>
+    </g>
+  </g>
+</svg>
