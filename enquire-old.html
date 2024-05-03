@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Studio Aurore</title>
+    <link rel="stylesheet" href="enquire-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!--header-->
+    <div class="banner">NOW BOOKING NEW CLIENTS - ENQUIRE NOW</div> <!--top banner-->
+    <div class="header">
+        <a href="home.html">
+            <div class="header-logo"><img src="images/main-logo.svg"></div>
+        </a>
+    </div>
+    <div class="header-nav"> <!--header-->
+        <a href="home.html" class="link-style">
+            <div>HOME</div>
+        </a>
+        <a href="about.html" class="link-style">
+            <div >ABOUT</div> 
+        </a>
+        <a href="portfolio.html" class="link-style">
+            <div>PORTFOLIO</div> 
+        </a>
+        <a href="services.html" class="link-style">
+            <div>SERVICES</div>
+        </a>
+        <div class="header-active-page">ENQUIRE</div>
+    </div>
+    
+    <!--section 1-->
+    <div class="section-1">
+        <h1>let's work together to make your dream brand a reality</h1>
+        <div class="section-1-box"></div>
+        <img class="section-1-star" src="images/star-doodle.svg">
+        <img class="section-1-cloud" src="images/cloud-doodle.svg">
+        <img class="section-1-o" src="images/o-doodle.svg">
+        <img class="section-1-x" src="images/x-doodle.svg">
+    </div>
+
+    <!--section 2-->
+    <div class="section-2"></div>
+    <!--enquiry form-->
+
+    
+
+    <form action="send_email.php" method="POST">
+      <h1>Enquiry Form</h1>
+      <label for="fullname">FULL NAME:</label><br>
+      <input type="text" id="fullname" name="fullname" required><br>
+ 
+      <label for="email">EMAIL:</label><br>
+      <input type="email" id="email" name="email" required><br>
+ 
+      <label for="location">WHERE ARE YOU LOCATED?:</label><br>
+      <input type="text" id="location" name="location" required><br>
+ 
+      <label for="business">WHAT IS THE NAME OF YOUR BUSINESS?:</label><br>
+      <input type="text" id="business" name="business" required><br>
+ 
+      <label for="social_media">PLEASE LINK ANY BUSINESS SOCIAL MEDIA AND/OR YOUR WEBSITE:</label><br>
+      <input type="text" id="social_media" name="social_media"><br>
+ 
+      <label for="service">WHAT SERVICES ARE YOU LOOKING FOR?</label><br>
+      <select id="service" name="service" required>
+        <option value="">SELECT SERVICE</option>
+        <option value="Branding">BRANDING</option>
+        <option value="Branding and Web">BRANDING AND WEB</option>
+        <option value="Packaging">BRANDING AND PACKAGING</option>
+        <option value="Social Media">BRANDING AND SOCIAL MEDIA</option>
+        <option value="Custom Package">CUSTOM PACKAGE</option>
+      </select><br>
+ 
+      <label for="description">TELL ME ABOUT YOUR BUSINESS AND FUTURE GOALS (THE MORE DETAIL, THE BETTER!):</label><br>
+      <textarea id="description" name="description" required></textarea><br>
+ 
+      <label for="budget">WHAT IS YOUR BUDGET?:</label><br>
+      <input type="text" id="budget" name="budget" required><br>
+ 
+      <label for="timeframe">DO YOU HAVE A TIMEFRAME IN MIND?:</label><br>
+      <input type="text" id="timeframe" name="timeframe" required><br>
+ 
+      <label for="additional_info">DO YOU HAVE ANY QUESTIONS OR ANYTHING TO ADD?:</label><br>
+      <textarea id="additional_info" name="additional_info"></textarea><br>
+ 
+      <input type="submit" value="SUBMIT">
+    </form>
+
+
+    <!--footer-->
+    <div class="footer">
+        <div class="footer-column1">
+            <!--add logo-->
+            <img class="footer-logo" src="images/secondary-logo.png">
+        </div>
+        <div class="footer-column2">
+            <h2>LEARN MORE</h2>
+            <a href="about.html" class="link-style">
+                <p>ABOUT</p>
+            </a>
+            <a href="portfolio.html" class="link-style">
+                <p>PORTFOLIO</p>
+            </a>
+            <a href="services.html" class="link-style">
+                <p>SERVICES</p>
+            </a>
+        </div>
+        <div class="footer-column3">
+            <h2>GET IN TOUCH</h2>
+            <p>FAQ'S</p>
+            <a href="enquire.html" class="link-style">
+                <p>ENQUIRE</p>
+            </a>
+            <p>CONTACT</p>            
+        </div>
+        <div class="footer-column4">
+            <h2>FOLLOW OUR<br>SOCIALS</h2>
+            <!--add ig and pin icons-->
+            <div>
+                <img class="footer-ig" src="SVG/ig.svg">
+                <img class="footer-pin" src="SVG/pin.svg">
+            </div>
+
+        </div>
+        <div class="footer-column5">
+            <!--add submark logo-->
+            <img class="footer-submark" src="images/submark.png">
+        </div>
+    </div>
+    <div class="footer-banner">
+        ENTER BANNER TEXT HERE
+    </div>
+</body>

@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Studio Aurore</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <link rel="stylesheet" href="about-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--header-->
+    <div class="banner">NOW BOOKING NEW CLIENTS - ENQUIRE NOW</div> <!--top banner-->
+    <div class="banner-phone">NOW BOOKING - ENQUIRE NOW</div>
+    <div class="header-large">
+        <div class="header">
+            <a href="home.html">
+                <div class="header-logo"><img src="images/main-logo.svg"></div>
+            </a>
+        </div>
+        <div class="header-nav"> <!--header-->
+    
+            <a href="home.html" class="link-style">
+                <div>HOME</div>
+            </a>
+            <div class="header-active-page">ABOUT</div>
+            <a href="portfolio.html" class="link-style">
+                <div>PORTFOLIO</div>
+            </a>
+            <a href="services.html" class="link-style">
+               <div>SERVICES</div> 
+            </a>
+            <a href="enquire.html" class="link-style">
+                <div>ENQUIRE</div>
+            </a>
+            
+        </div>
+    </div>
+
+    <div class="header-small">
+        <div class="header-logo"><img src="images/main-logo.svg"></div>
+        <div class="header-hamburger" onclick="toggleMenu()">☰</div>
+        <div class="header-menu">
+            <a href="home.html" class="menu-item">HOME</a>
+            <a href="about.html" class="menu-item-active">ABOUT</a>
+            <a href="portfolio.html" class="menu-item">PORTFOLIO</a>
+            <a href="services.html" class="menu-item">SERVICES</a>
+            <a href="enquire.html" class="menu-item">ENQUIRE</a>
+        </div>
+    </div>
+
+    <!--jaascript for drop down menu-->
+    <script>
+        function toggleMenu() {
+            var menu = document.querySelector('.header-menu');
+            var icon = document.querySelector('.header-hamburger');
+           
+            if (menu.style.display === 'none' || menu.style.display === '') {
+                menu.style.display = 'block'; // Show the menu
+                icon.textContent = '✕'; // Change the icon to close symbol
+            } else {
+                menu.style.display = 'none'; // Hide the menu
+                icon.textContent = '☰'; // Change the icon to hamburger symbol
+            }
+        }
+    </script>
+
+
+
+    <!--section 1-->
+    <div class="section-1">
+        <div class="section-1-phone">
+            <img class="small-submark" src="images/submark_1.svg">
+            <h2>ABOUT STUDIO AURORE</h2>
+        </div>
+        <div class="section-1-images">
+        <!--insert images here -->
+            <img class="section-1-img-1" src="images/desk.jpg">
+            <img class="section-1-img-2" src="images/polaroid.jpg">
+            <img class="section-1-img-3" src="images/wave.png">
+            <div class="section-1-box"></div>
+        </div>
+        <div class="section-1-text"> 
+            <h1>Crafting unforgettable
+                brand experiences for
+                the daring dreamers and
+                visionary innovators.
+            </h1>
+        </div>
+    </div>
+
+    <!--section 2-->
+    <div class="section-2">
+        <div class="section-2-flex">
+            <div class="section-2-text"> 
+                <h2>THE FACE BEHIND THE BIZ</h2>
+                <p>I'm Jasmine, the creative mind behind Studio Aurore,
+                    where design isn't just a profession, it's a passion. With a
+                    love for turning ideas into captivating visual narratives,
+                    I've dedicated myself to crafting unique brand identities
+                    and compelling websites that resonate with both hearts
+                    and minds.
+                </p>
+                <p>My journey into the world of design began with a lifelong
+                    love affair with creativity. From early days spent painting
+                    and drawing, I've always found joy in artistic expression.
+                    However, it was during my university studies in computer
+                    science that I discovered the transformative power of
+                    design. Tasked with creating a website for a class
+                    project, I fell head over heels for the creative process.
+                    Since then, I've passionately pursued design, expanding
+                    my skills into brand design and embracing every
+                    opportunity to bring visions to life through visual
+                    storytelling.
+                </p>
+                <p>I'm here to help you achieve your design goals, let's
+                    collaborate to make your dreams a reality!
+                </p>
+            </div>
+            <img class="section-2-img" src="images/jasmine-film.jpg">
+            <img class="section-2-handwritten" src="images/about-handwritten.png">
+        </div>
+    </div>
+
+    <!--section 3-->
+    <div class="section-3">
+        <h1>a bit about me</h1>
+        <img class="section-3-handwritten" src="images/about-me-subtext.jpg">
+        <img class="section-3-handwritten-phone" src="images/about-me-subtext-phone.png">
+        <div class="section-3-container">
+            <div class="section-3-images">
+                <img class="section-3-quiz-xslim" src="images/note-slim-new.svg">
+                <img class="section-3-quiz-slim" src="images/quiz-slim.svg">
+                <img class="section-3-quiz" src="images/quiz.png">
+                <img class="section-3-crab" src="images/crab.png">
+                <img class="section-3-leaves" src="images/leaves.png">
+                <img class="section-3-puzzle" src="images/puzzle.png">
+            </div>
+            <div class="section-3-text">
+                <div>
+                    <h2>FAVE MOVIE</h2>
+                    <p>The Parent Trap (duh, i'm a twin) </p>
+                    <hr>
+                </div>
+                <div>
+                    <h2>STAR SIGN</h2>
+                    <p>Cancer (july baby) </p>
+                    <hr>
+                </div>
+                <div>
+                    <h2>FAVE SEASON</h2>
+                    <p>Autumn (gilmore girls season) </p>
+                    <hr>
+                </div>
+                <div>
+                    <h2>HOBBIES</h2>
+                    <p>Field Hockey, Crochet, Reading (AKA sporty grandma) </p>
+                    <hr>
+                </div>
+                <div>
+                    <h2>FAVE TV SHOW</h2>
+                    <p>Dead To Me (if you don't know, get to know) </p>
+                    <hr>
+                </div>
+                <div>
+                    <h2>GUILTY PLEASURE</h2>
+                    <p>Pepsi Max (late night design fuel) </p>
+                    <hr>
+                </div>
+            </div>
+            <div class="section-3-text-phone">
+                <div>
+                    <h2>FAVE MOVIE</h2>
+                    <p>The Parent Trap</p>
+                    <hr>
+                </div>
+                <div>
+                    <h2>STAR SIGN</h2>
+                    <p>Cancer</p>
+                    <hr>
+                </div>
+                <div>
+                    <h2>FAVE SEASON</h2>
+                    <p>Autumn</p>
+                    <hr>
+                </div>
+                <div>
+                    <h2>HOBBIES</h2>
+                    <p>Hockey, Crochet, Reading</p>
+                    <hr>
+                </div>
+                <div>
+                    <h2>FAVE TV SHOW</h2>
+                    <p>Dead To Me</p>
+                    <hr>
+                </div>
+                <div>
+                    <h2>GUILTY PLEASURE</h2>
+                    <p>Pepsi Max</p>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--section 4-->
+    <div class="section-4">
+        <img class="section-4-img" src="images/submark.png">
+        <h2>FOR THE IMAGINATIVE MINDS AND FORWARD THINKERS</h2>
+    </div>
+
+    <!--section 5-->
+    <div class="section-5">
+        <img class="our-values" src="images/handwritten-our-values.png">
+        <h1>what makes us different</h1>
+        <div class="section-5-table">
+            <div class="section-5-table1">
+                <img class="section-5-img1" src="images/sunseti.png">
+                <h2>WE ARE PASSIONATE</h2>
+                <p>At Studio Aurore, vibrant authenticity defines our approach. We infuse joy
+                and personality into every project, crafting radiant designs, each a
+                celebration of uniqueness that effortlessly captivates attention and leaves
+                a lasting impression.
+                </p>
+
+            </div>
+            <hr>
+            <div class="section-5-table2">
+                <img class="section-5-img2" src="images/tree.png">
+                <h2>WE ARE STRATEGIC</h2>
+                <p>We believe in the power of purposeful branding, where every element is
+                carefully chosen to deliver results. From visual allure to strategic precision,
+                our designs go beyond trends, creating a lasting impact that resonates
+                with your audience and achieves your brand goals.
+                </p>
+            </div>
+            <hr>
+            <div class="section-5-table3">
+                <img class="section-5-img3" src="images/mountain.png">
+                <h2>WE ARE COMMITTED</h2>
+                <p>Our clients are at the core of Studio Aurore's ethos. We value open
+                communication, collaboration, and building strong client relationships
+                through transparency, trust, and a commitment to exceeding your design
+                goals, from the initial idea to the final creation.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!--section 6-->
+    <div class="section-6">
+        <div class="section-6-text">
+            <h1>our signature style</h1>
+            <img class="section-6-line" src="images/line.png">
+            <p>At Studio Aurore, we specialize in creating designs that embody softness
+                and gentleness, while maintaining a cohesive and minimal aesthetic. Our
+                approach seamlessly blends professionalism with a touch of fun, ensuring
+                that each project is both engaging and sophisticated. By incorporating
+                natural textures and utilizing classy typefaces, we add depth and character
+                to every piece, elevating your brand's presence with timeless elegance.
+            </p>
+            <h2>MINIMALIST    |    ORGANIC    |     MODERN    |   FEMININE</h2>
+        </div>
+        <div class="section-6-images">
+            <img class="section-6-images-billboard" src="images/billboard.png">  
+            <img class="section-6-images-phone" src="images/phone1.png">          
+            <img class="section-6-images-packaging" src="images/candle-packaging.png">
+            <img class="section-6-images-wave" src="images/wave.png">
+            <img class="section-6-images-sun" src="images/sun.png">
+        </div>
+    </div>
+
+    <!--section 7-->
+    <div class="section-7">
+        <h1>check out more of our work</h1>
+        <a href="portfolio.html" class="link-style">
+            <h2>VIEW THE PORTFOLIO</h2>
+        </a>
+        
+        <div class="section-7-polaroids">
+            <div class="section-7-polaroid1">
+                <div class="section-7-polaroidbg">
+                    <div class="section-7-polaroidimg">
+                        <a href="oakridge-farm.html">
+                            <img src="images/of1.jpg">
+                        </a>
+                    </div>
+                    <div class="section-7-polaroidtext">
+                        <a href="oakridge-farm.html" class="link-style">
+                            <h2 class="big-text">THE OAKRIDGE FARM</h2>
+                            <h2 class="small-text">OAKRIDGE FARM</h2>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="section-7-polaroid2">
+                <div class="section-7-polaroidbg">
+                    <div class="section-7-polaroidimg">
+                        <a href="gloria-georgio.html">
+                            <img src="images/gg8.jpg">
+                        </a>  
+                    </div>
+                    <div class="section-7-polaroidtext">
+                        <a href="gloria-georgio.html" class="link-style">
+                            <h2>GLORIA & GEORGIO</h2>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="section-7-polaroid3">
+                <div class="section-7-polaroidbg">
+                    <div class="section-7-polaroidimg">
+                        <a href="emily-sullivan.html">
+                            <img src="images/es-card.jpg">
+                        </a>
+                    </div>
+                    <div class="section-7-polaroidtext">
+                        <a href="emily-sullivan.html" class="link-style">
+                            <h2>EMILY SULLIVAN</h2>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--section 8-->
+    <div class="section-8">
+        <div class="section-8-text">
+            <h1>think we'd make a good match?</h1>
+            <p class="section-8-p">
+            Like what you see? If you resonate with our design philosophy and
+            feel inspired by our approach, we'd love to hear from you. Take the
+            next step towards bringing your vision to life by reaching out to us
+            today. Let's collaborate to create something extraordinary together.
+            </p>
+            <p class="section-8-p-phone">
+                If you resonate with our design philosophy and
+                feel inspired by our approach, we'd love to hear from you. Take the
+                next step towards bringing your vision to life by reaching out to us
+                today.   
+            </p>
+            <a href="enquire.html">
+               <button type="button">LET'S DO THIS!</button> 
+            </a>
+            
+        </div>
+    </div>
+
+    <!--footer-->
+    <div class="footer">
+        <div class="footer-column1">
+            <!--add logo-->
+            <img class="footer-logo" src="images/secondary-logo.png">
+        </div>
+        <div class="footer-column2">
+            <h2>LEARN MORE</h2>
+            <a href="home.html" class="link-style">
+                <p>HOME</p>
+            </a>
+            <a href="about.html" class="link-style-active">
+                <p>ABOUT</p>
+            </a>
+            <a href="portfolio.html" class="link-style">
+                <p>PORTFOLIO</p>
+            </a>
+            <a href="services.html" class="link-style">
+                <p>SERVICES</p>
+            </a>
+        </div>
+        <div class="footer-column3">
+            <h2>GET IN TOUCH</h2>
+            <a href="enquire.html" class="link-style">
+                <p>ENQUIRE</p>
+            </a>           
+        </div>
+        <div class="footer-column4">
+            <h2>FOLLOW OUR<br>SOCIALS</h2>
+            <!--add ig and pin icons-->
+            <div>
+                <a href="https://www.instagram.com/creativeclubuk/" target="_blank">
+                    <img class="footer-ig" src="SVG/ig.svg" alt="Instagram">
+                </a>
+                <a href="https://www.pinterest.co.uk/studioaurore/" target="_blank">
+                    <img class="footer-pin" src="SVG/pin.svg" alt="Pinterest">
+                </a>
+            </div>
+        </div>
+        <div class="footer-column5">
+            <!--add submark logo-->
+            <img class="footer-submark" src="images/submark.png">
+        </div>
+    </div>
+</body>

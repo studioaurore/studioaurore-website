@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Aurore</title>
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--header-->
+    <div class="banner">NOW BOOKING NEW CLIENTS - ENQUIRE NOW</div> <!--top banner-->
+    <div class="banner-phone">NOW BOOKING - ENQUIRE NOW</div>
+    <div class="header-large">
+        <div class="header">
+            <a href="home.html">
+                <div class="header-logo"><img src="images/main-logo.svg"></div>
+            </a>
+        </div>
+
+        <div class="header-nav"> <!--header-->
+
+            <div class="header-active-page">HOME</div>
+            <a href="about.html" class="link-style">
+                <div>ABOUT</div>
+            </a>
+            <a href="portfolio.html" class="link-style">
+                <div>PORTFOLIO</div> 
+            </a>
+            <a href="services.html" class="link-style">
+                <div>SERVICES</div>
+            </a>
+            <a href="enquire.html" class="link-style">
+                <div>ENQUIRE</div>
+            </a>
+        
+        </div>
+    </div>
+
+    <div class="header-small">
+        <div class="header-logo"><img src="images/main-logo.svg"></div>
+        <div class="header-hamburger" onclick="toggleMenu()">☰</div>
+        <div class="header-menu">
+            <a href="home.html" class="menu-item-active">HOME</a>
+            <a href="about.html" class="menu-item">ABOUT</a>
+            <a href="portfolio.html" class="menu-item">PORTFOLIO</a>
+            <a href="services.html" class="menu-item">SERVICES</a>
+            <a href="enquire.html" class="menu-item">ENQUIRE</a>
+        </div>
+    </div>
+
+    <!--jaascript for drop down menu-->
+    <script>
+        function toggleMenu() {
+            var menu = document.querySelector('.header-menu');
+            var icon = document.querySelector('.header-hamburger');
+            
+            if (menu.style.display === 'none' || menu.style.display === '') {
+                menu.style.display = 'block'; // Show the menu
+                icon.textContent = '✕'; // Change the icon to close symbol
+            } else {
+                menu.style.display = 'none'; // Hide the menu
+                icon.textContent = '☰'; // Change the icon to hamburger symbol
+            }
+        }
+    </script>
+
+    <!--section1-->
+    <div class="section-1">
+        <div class="section-1-text"> 
+            <img class="image1" src="images/candle-packaging.jpg" alt="Candle Packaging">
+            <img class="image2" src="images/enviro.jpg" alt="Enviro Quote">
+            <img class="image3" src="images/gloria-logo.jpg" alt="Gloria & Georgio Logo">
+            <img class="image4" src="images/phone.jpg" alt="Ember Phone">
+            <img class="image5" src="images/gloria-illustrations.jpg" alt="Illustrations">
+            <img class="image6" src="images/wave-blue.svg" alt="Wave">
+            <img class="image7" src="images/sun.png" alt="Sun">
+            <h2>OUR MISSION</h2>
+            <h1 class="big-h1">Your success is our passion.<br>Tailored branding solutions with<br>you in mind.</h1>
+            <h1 class="small-h1">Your success is our passion. Tailored branding solutions with you in mind.</h1>
+            <img class="sunset-img" src="images/sunset.png" alt="submark">
+        </div>
+    </div>
+
+    <!--section2-->
+    <div class="section-2">
+        <div class="section-2-text"> 
+            <h1 class="section-2-h1b">where aesthetics meet functionality</h1>
+            <h1 class="section-2-h1s">where aesthetics<br>meet functionality</h1>
+            <p>We are committed to delivering designs that not only look
+                impressive but also function as strategic assets for your
+                brand. 'Where aesthetics meet functionality' is not just a
+                tagline for us; it encapsulates our design philosophy. We
+                craft brands that not only captivate your audience but also
+                serve a purpose – driving engagement, conveying your
+                message effectively, and ultimately boosting your business
+                performance.
+            </p>
+            <a href="about.html">
+                <button type="button">LEARN MORE</button>
+            </a>
+            
+        </div>
+        <div class="section-2-img">
+        <!--insert image-->
+            <img src="images/badge-2.svg" class="second-image" alt="Studio Aurore Submark">
+        </div>
+    </div>
+
+    <!--section3-->
+    <div class="section-3">
+        <a href="services.html" class="link-style">
+            <h1>our services</h1>
+        </a>
+        <img class="section-3-imageline" src="images/line.png">
+        <div class="section-3-flex">
+            <div>
+                <a href="services.html" class="link-style">
+                    <div class="section-3-img">
+                        <img src="images/es-card.jpg">
+                    </div>
+                    <h2>BRAND DESIGN</h2>
+                </a>
+            </div>
+            <div> 
+                <a href="services.html" class="link-style">
+                    <div class="section-3-img">
+                        <img src="images/ember-1.jpg">
+                    </div>
+                    <h2>PACKAGING DESIGN</h2>
+                </a>
+            </div>
+            <div>
+                <a href="services.html" class="link-style">
+                    <div class="section-3-img">
+                        <img src="images/laptop mockup.png">
+                    </div>
+                    <h2>WEB DESIGN</h2>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!--ADD LINK TO SERVICES PAGE-->
+    <div class="section-3-phone">
+        <div class="services">
+            <h1>services</h1>
+            <div class="services-img">
+                <img src="images/es-card.jpg">
+            </div>
+        </div>
+        <div class="section-3-phone-text">
+            <h2>01 /  BRAND DESIGN</h2>
+            <hr>
+            <h2>02 /  PACKAGING DESIGN</h2>
+            <hr>
+            <h2>03 /  WEB DESIGN</h2>
+            <hr>
+            <h2>04 /  SOCIAL MEDIA DESIGN</h2>
+            <hr>
+        </div>
+    </div>
+
+    <!--section4-->
+    <div class="section-4">
+        <div class="section-4-img">
+            <img src="images/Asset 40.svg">
+            <img class="heart" src="images/heart-doodle.svg">
+            <img class="star" src="images/star-doodle_1.svg">
+        </div>
+        
+        <!--insert image-->
+        <div class="section-4-text"> 
+            <h1>hey there, it's nice to meet you - i'm jasmine</h1>
+            <p>I'm the creative force behind Studio Aurore, and let me
+                tell you, design is my happy place. As a dedicated brand
+                and website designer, I thrive on turning ideas into
+                visually stunning realities. When I'm not in design mode,
+                you'll find me hooked on crocheting, taking my dogs for
+                a crisp autumn walk, or catching the sunrise – hence the
+                name Studio Aurore. It's not just a studio; it's a blend of
+                my favorite things, and I can't wait to share that passion
+                with you!
+            </p>
+            <a href="about.html" class="link-style">
+                <h2>FIND OUT MORE</h2>
+                <hr>
+            </a>
+            <!--make this a link to about page-->
+        </div>
+    </div>
+
+    <!--section5-->
+    <div class="section-5">
+        <h1>our values</h1>
+        <!--insert handdrawn underline image-->
+        <img class="section-5-imageline" src="images/line.png">
+        <div class="section-5-flex">
+            <div class="section-5-column">
+                <div class="section-5-img">
+                    <img src="images/sunseti.png">
+                </div>
+                <!--insert brand image-->
+                <h2>CREATIVE RADIANCE</h2>
+                <p>At Studio Aurore, vibrant
+                    authenticity defines our approach.
+                    We infuse joy and personality into
+                    every project, crafting radiant
+                    designs, each a celebration of
+                    uniqueness that effortlessly
+                    captivates attention and leaves a
+                    lasting impression.
+                </p> 
+            </div>
+            <div class="section-5-column"> 
+                <div class="section-5-img">
+                    <img src="images/tree.png">
+                </div>
+                <!--insert packaging image-->
+                <h2>STRATEGIC IMPACT</h2>
+                <p>We believe in the power of
+                    purposeful branding, where every
+                    element is carefully chosen to
+                    deliver results. From visual allure to
+                    strategic precision, our designs go
+                    beyond trends, creating a lasting
+                    impact that resonates with your
+                    audience and achieves your brand
+                    goals.
+                </p>
+            </div>
+            <div class="section-5-column">
+                <div class="section-5-img">
+                    <img src="images/mountain.png">
+                </div>
+                <!--insert web image-->
+                <h2>CLIENT HARMONY</h2>
+                <p>Our clients are at the core of Studio
+                    Aurore's ethos. We value open
+                    communication, collaboration, and
+                    building strong client relationships
+                    through transparency, trust, and a
+                    commitment to exceeding your
+                    design goals, from the initial idea
+                    to the final creation.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!--section 6-->
+    <div class="section-6">
+        <h1>check out our work</h1>
+        <div class="section-6-box"></div>
+        <div class="section-6-flex">
+            <div class="section-6-img">
+                <a href="oakridge-farm.html"><img src="images/oakridge-farm1.jpg"></a>
+            </div>
+            <div class="section-6-img">
+                <a href="emily-sullivan.html"><img src="images/es5.jpg"></a>
+            </div>
+            <div class="section-6-img">
+                <a href="ember.html"><img src="images/billboard.jpg"></a>
+            </div>
+        </div>
+        <!--CLASS FOR PHONE -TURN OFF FOR OTHER SCREEN SIZES-->
+        <div class="section-6-phone">
+            <img src="images/oakridge-farm1.jpg">
+        </div>
+        <!--CLASS FOR PHONE -TURN OFF FOR OTHER SCREEN SIZES-->
+        <a href="portfolio.html" class="link-style">
+            <h2>VIEW MORE</h2>
+            <hr>
+        </a>
+    </div>
+    
+    <!--section 7-->
+    <div class="section-7">
+        <h2>DON'T JUST TAKE OUR WORD FOR IT</h2>
+        <h1>kind words from our clients</h1>
+        <div class="section-7-box"></div>
+        <div class="section-7-box2"></div>
+        <div class="section-7-container">
+            <img class="section-7-line1" src="images/line.png">  
+            <img class="section-7-line2" src="images/line.png">
+            <img class="section-7-line3" src="images/line.png">
+            <img class="section-7-quote1" src="images/quote1.png">
+            <img class="section-7-quote2" src="images/quote2.png">
+            <div class="section-7-flex">
+                <div class="section-7-column">
+                    <p>KNOWLEDGEABLE</p>
+                    <p>PASSIONATE</p>
+                    <p>COLLABORATIVE</p>
+                </div>
+                <div class="section-7-column">
+                    <p>DEDICATED</p>
+                    <p>TALENTED</p>
+                    <p>SEAMLESS</p>
+                </div>
+                <div class="section-7-column">
+                    <p>HELPFUL</p>
+                    <p>DETAIL-ORIENTED</p>
+                    <p>PROFESSIONAL</p>
+               </div>
+            </div>
+            <div class="section-7-flex-phone">
+                <div class="section-7-column">
+                    <p>KNOWLEDGEABLE</p>
+                    <p>PASSIONATE</p>
+                    <p>COLLABORATIVE</p>
+                    <p>TALENTED</p>
+                    <p>PROFESSIONAL</P>
+                </div>
+                <div class="section-7-column">
+                    <p>DEDICATED</p>
+                    <p>HELPFUL</p>
+                    <p>SEAMLESS</p>
+                    <p>DETAIL-ORIENTED</p>
+                    <p>PASSIONATE</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!--section8-->
+    <div class="section-8">
+        <img src="images/submark-white_1.svg">
+        <h1>ready to make your brand shine?</h1>
+        <h2>LET'S DO THIS!</h2>
+        <a href="enquire.html">
+            <button type="button">ENQUIRE NOW</button> 
+        </a>
+        
+    </div>
+
+    <!--footer-->
+    <div class="footer">
+        <div class="footer-column1">
+            <!--add logo-->
+            <img class="footer-logo" src="images/secondary-logo.png">
+        </div>
+        <div class="footer-column2">
+            <h2>LEARN MORE</h2>
+            <a href="home.html" class="link-style-active">
+                <p>HOME</p>
+            </a>
+            <a href="about.html" class="link-style">
+                <p>ABOUT</p>
+            </a>
+            <a href="portfolio.html" class="link-style">
+                <p>PORTFOLIO</p>
+            </a>
+            <a href="services.html" class="link-style">
+                <p>SERVICES</p>
+            </a>
+        </div>
+        <div class="footer-column3">
+            <h2>GET IN TOUCH</h2>
+            <a href="enquire.html" class="link-style">
+                <p>ENQUIRE</p>
+            </a>           
+        </div>
+        <div class="footer-column4">
+            <h2>FOLLOW OUR<br>SOCIALS</h2>
+            <!--add ig and pin icons-->
+            <div>
+                <a href="https://www.instagram.com/creativeclubuk/" target="_blank">
+                    <img class="footer-ig" src="SVG/ig.svg" alt="Instagram">
+                </a>
+                <a href="https://www.pinterest.co.uk/studioaurore/" target="_blank">
+                    <img class="footer-pin" src="SVG/pin.svg" alt="Pinterest">
+                </a>
+            </div>
+        </div>
+        <div class="footer-column5">
+            <!--add submark logo-->
+            <img class="footer-submark" src="images/submark.png">
+        </div>
+    </div>
+</body>
+</html>

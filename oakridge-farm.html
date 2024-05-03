@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Studio Aurore</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <link rel="stylesheet" href="oakridge-farm-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!--header-->
+    <div class="banner">NOW BOOKING NEW CLIENTS - ENQUIRE NOW</div> <!--top banner-->
+    <div class="banner-phone">NOW BOOKING - ENQUIRE NOW</div>
+    <div class="header-large">
+        <div class="header">
+            <a href="home.html">
+                <div class="header-logo"><img src="images/main-logo.svg"></div>
+            </a>
+        </div>
+        <div class="header-nav"> <!--header-->
+    
+            <a href="home.html" class="link-style">
+                <div>HOME</div>
+            </a>
+            <a href="about.html" class="link-style">
+                <div>ABOUT</div>
+            </a>
+            <a href="portfolio.html" class="link-style">
+                <div>PORTFOLIO</div> 
+            </a>
+            <a href="services.html" class="link-style">
+               <div>SERVICES</div> 
+            </a>
+            <a href="enquire.html" class="link-style">
+                <div>ENQUIRE</div>
+            </a>
+            
+        </div>
+    </div>
+
+    <div class="header-small">
+        <div class="header-logo"><img src="images/main-logo.svg"></div>
+        <div class="header-hamburger" onclick="toggleMenu()">☰</div>
+        <div class="header-menu">
+            <a href="home.html" class="menu-item">HOME</a>
+            <a href="about.html" class="menu-item">ABOUT</a>
+            <a href="portfolio.html" class="menu-item">PORTFOLIO</a>
+            <a href="services.html" class="menu-item">SERVICES</a>
+            <a href="enquire.html" class="menu-item">ENQUIRE</a>
+        </div>
+    </div>
+
+    <!--jaascript for drop down menu-->
+    <script>
+        function toggleMenu() {
+            var menu = document.querySelector('.header-menu');
+            var icon = document.querySelector('.header-hamburger');
+           
+            if (menu.style.display === 'none' || menu.style.display === '') {
+                menu.style.display = 'block'; // Show the menu
+                icon.textContent = '✕'; // Change the icon to close symbol
+            } else {
+                menu.style.display = 'none'; // Hide the menu
+                icon.textContent = '☰'; // Change the icon to hamburger symbol
+            }
+        }
+    </script>
+
+    <!--PROJECT DESCRIPTION-->
+    <div class="description">
+        <h1>the oakridge farm</h1>
+        <p>In developing the branding for Oakridge Farm, our primary
+            objective was to infuse every aspect with a sense of rustic
+            charm and natural elegance. Drawing inspiration from the
+            farm's serene surroundings, we crafted a cohesive brand
+            identity that resonates with the essence of rural living.
+            From the earthy color palette to the timeless logo design,
+            each element was thoughtfully chosen to evoke a feeling of
+            warmth and authenticity. The result is a visual identity
+            that embodies Oakridge Farm's values, inviting visitors to
+            experience the beauty and tranquility of country life.
+        </p>
+        <h2>BRANDING    |    SOCIAL MEDIA    |     PACKAGING</h2>
+    </div>
+
+    <!--PORTFOLIO-->
+ 
+    <div class="portfolio">
+        <div class="row">
+            <div class="column">
+                <img src="images/of1.jpg" alt="Image 1">
+            </div>
+            <div class="column">
+                <img src="images/of2.jpg" alt="Image 2">
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img src="images/of3.jpg" alt="Image 3">
+            </div>
+            <div class="column">
+                <img src="images/of4.jpg" alt="Image 4">
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img src="images/of5.jpg" alt="Image 5">
+            </div>
+            <div class="column">
+                <img src="images/of6.jpg" alt="Image 6">
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img src="images/of7.jpg" alt="Image 7">
+            </div>
+            <div class="column">
+                <img src="images/of8.jpg" alt="Image 8">
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img src="images/of9.jpg" alt="Image 9">
+            </div>
+            <div class="column">
+                <img src="images/of10.jpg" alt="Image 10">
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img src="images/of11.jpg" alt="Image 11">
+            </div>
+            <div class="column">
+                <img class="img12" src="images/of12.jpg" alt="Image 12">
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img class="img13" src="images/of13.jpg" alt="Image 13">
+            </div>
+            <div class="column">
+                <img class="img14" src="images/of14.jpg" alt="Image 14">
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img class="img15" src="images/of15.jpg" alt="Image 15">
+            </div>
+            <div class="column">
+                <img class="img16" src="images/of16.jpg" alt="Image 16">
+            </div>
+        </div>
+    </div>
+
+    <div class="buttons">
+        <a href="ember.html" class="previous">⬅ PREVIOUS PROJECT</a>
+        <a href="gloria-georgio.html" class="next">NEXT PROJECT ➞</a>
+    </div>
+
+    <div class="buttons-phone">
+        <a href="ember.html" class="previous">⬅ PREVIOUS</a>
+        <a href="gloria-georgio.html" class="next">NEXT ➞</a>
+    </div>
+
+    <!--footer-->
+    <div class="footer">
+        <div class="footer-column1">
+            <!--add logo-->
+            <img class="footer-logo" src="images/secondary-logo.png">
+        </div>
+        <div class="footer-column2">
+            <h2>LEARN MORE</h2>
+            <a href="home.html" class="link-style">
+                <p>HOME</p>
+            </a>
+            <a href="about.html" class="link-style">
+                <p>ABOUT</p>
+            </a>
+            <a href="portfolio.html" class="link-style-active">
+                <p>PORTFOLIO</p>
+            </a>
+            <a href="services.html" class="link-style">
+                <p>SERVICES</p>
+            </a>
+        </div>
+        <div class="footer-column3">
+            <h2>GET IN TOUCH</h2>
+            <a href="enquire.html" class="link-style">
+                <p>ENQUIRE</p>
+            </a>           
+        </div>
+        <div class="footer-column4">
+            <h2>FOLLOW OUR<br>SOCIALS</h2>
+            <!--add ig and pin icons-->
+            <div>
+                <a href="https://www.instagram.com/creativeclubuk/" target="_blank">
+                    <img class="footer-ig" src="SVG/ig.svg" alt="Instagram">
+                </a>
+                <a href="https://www.pinterest.co.uk/studioaurore/" target="_blank">
+                    <img class="footer-pin" src="SVG/pin.svg" alt="Pinterest">
+                </a>
+            </div>
+        </div>
+        <div class="footer-column5">
+            <!--add submark logo-->
+            <img class="footer-submark" src="images/submark.png">
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Studio Aurore</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <link rel="stylesheet" href="services-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!--header-->
+    <div class="banner">NOW BOOKING NEW CLIENTS - ENQUIRE NOW</div> <!--top banner-->
+    <div class="banner-phone">NOW BOOKING - ENQUIRE NOW</div>
+    <div class="header-large">
+        <div class="header">
+            <a href="home.html">
+                <div class="header-logo"><img src="images/main-logo.svg"></div>
+            </a>
+        </div>
+        <div class="header-nav"> <!--header-->
+    
+            <a href="home.html" class="link-style">
+                <div>HOME</div>
+            </a>
+            <a href="about.html" class="link-style">
+                <div>ABOUT</div>
+            </a>
+            <a href="portfolio.html" class="link-style">
+                <div>PORTFOLIO</div>
+            </a>
+            <div class="header-active-page">SERVICES</div>
+            
+            <a href="enquire.html" class="link-style">
+                <div>ENQUIRE</div>
+            </a>
+            
+        </div>
+    </div>
+
+    <div class="header-small">
+        <div class="header-logo"><img src="images/main-logo.svg"></div>
+        <div class="header-hamburger" onclick="toggleMenu()">☰</div>
+        <div class="header-menu">
+            <a href="home.html" class="menu-item">HOME</a>
+            <a href="about.html" class="menu-item">ABOUT</a>
+            <a href="portfolio.html" class="menu-item">PORTFOLIO</a>
+            <a href="services.html" class="menu-item-active">SERVICES</a>
+            <a href="enquire.html" class="menu-item">ENQUIRE</a>
+        </div>
+    </div>
+
+    <!--jaascript for drop down menu-->
+    <script>
+        function toggleMenu() {
+            var menu = document.querySelector('.header-menu');
+            var icon = document.querySelector('.header-hamburger');
+           
+            if (menu.style.display === 'none' || menu.style.display === '') {
+                menu.style.display = 'block'; // Show the menu
+                icon.textContent = '✕'; // Change the icon to close symbol
+            } else {
+                menu.style.display = 'none'; // Hide the menu
+                icon.textContent = '☰'; // Change the icon to hamburger symbol
+            }
+        }
+    </script>
+
+    <!--section 1-->
+    <div class="section-1">
+        <img class="section-1-img-sun" src="images/sunblob.png">
+        <div class="section-1-text"> 
+            <h1>Ready to elevate your brand to new heights?</h1>
+            <h2>
+                CHECK OUT OUR SERVICES
+                <img class="arrow-icon" src="images/arrow.png">
+            </h2>
+        </div>
+        <div class="section-1-img">
+            <img src="images/gg14.jpg">
+        </div>
+    </div>
+
+    <!--section 2-->
+    <div class="section-2">
+        <img class="section-2-img" src="images/submark-badge.svg">
+        <img class="section-2-imgtext" src="images/your-branding-matters.svg">
+        <p>Your brand is more than just a logo or a website. It's the heart and soul of your business,
+            the essence of who you are and what you stand for. Strong branding builds trust, fosters
+            loyalty, and sets you apart from the competition. It's the foundation upon which successful
+            businesses are built.</p>
+        <p>At Studio Aurore, we understand the power of branding and its impact on your business's
+            success. From creating a memorable visual identity to crafting a compelling brand story,
+            we're here to help you unlock the full potential of your brand.
+        </p>
+    </div>
+
+    <!--section 3-->
+    <div class="section-3">
+        <div class="section-3-flex">
+            <div class="section-3-img">
+                <img src="images/es-card.jpg">
+            </div>
+            <div class="section-3-text">
+                <h1>Essential Brand Kit</h1>
+                <h2>TIMELINE: 2-3 WEEKS</h2>
+                <p>The Essential Brand Kit provides the fundamental building
+                blocks of a strong brand identity. This package is perfect
+                for budding businesses and startups that are just starting
+                out, providing a solid foundation to establish their brand's
+                visual identity.
+                </p>
+                <hr>
+                <h2>INCLUDES:</h2>
+                <div class="section-3-list">
+                    <p>Moodboards<br>Logo Suite<br>Typography</p>
+                    <p>Colour Palette<br>Mini Brand Guidelines<br>3x Revisions</p>
+                </div>
+                <div class="section-3-list-phone">
+                    <p>Moodboards<br>Logo Suite<br>Typography</p>
+                    <p>Colour Palette<br>Mini Guidelines<br>3x Revisions</p>
+                </div>
+                <hr>
+                <h2>ENQUIRE FOR CUSTOM QUOTE</h2>
+            </div>
+        </div>
+    </div>
+
+    <!--section 4-->
+    <div class="section-4">
+        <div class="section-4-flex">
+            <div class="section-4-text">
+                <h1>Enhanced Brand Bundle</h1>
+                <h2>TIMELINE: 3-4 WEEKS</h2>
+                <p>The Enhanced Brand Bundle is the ultimate package for
+                businesses looking for a comprehensive and tailored
+                brand identity. It is a perfect fit for established
+                companies or ambitious startups aiming to make a
+                bold statement. 
+                </p>
+                <hr>
+                <h2>INCLUDES:</h2>
+                <div class="section-4-list">
+                    <p>Moodboards<br>Logo Suite<br>Typography<br>Colour Palette<br>Custom Pattern</p>
+                    <p>5x Custom Icons / Illustrations<br>2x Add-Ons<br>Brand Guidelines<br>3x Revisions</p>
+                </div>
+                <div class="section-4-list-phone">
+                    <p>Moodboards<br>Logo Suite<br>Typography<br>Colour Palette<br>5x Custom Icons / Illustrations</p>
+                    <p>Custom Pattern<br>Brand Guidelines<br>3x Revisions</p>
+                </div>
+                <hr>
+                <h2>ENQUIRE FOR CUSTOM QUOTE</h2>
+            </div>
+            <div class="section-4-img">
+                <img src="images/miss-box.png">
+            </div>
+        </div>
+    </div>
+
+    <!--section 5-->
+    <div class="section-5">
+        <div class="section-5-flex">
+            <div class="section-5-img">
+                <img src="images/laptop mockup.png">
+            </div>
+            <div class="section-5-text">
+                <h1>Complete Brand & Web Solution</h1>
+                <h2>TIMELINE: 6-8 WEEKS</h2>
+                <p>The Complete Brand and Web Solution combines the
+                power of strategic branding with a stunning web presence,
+                tailored to meet the needs of established businesses and
+                ambitious startups alike. From defining your brand's
+                essence to developing an impactful online identity, this
+                package is your roadmap to digital success.
+                </p>
+                <hr>
+                <h2>INCLUDES:</h2>
+                <div class="section-5-list">
+                    <p>Moodboards<br>Logo Suite<br>Typography<br>Colour Palette<br>Custom Pattern</p>
+                    <p>5x Custom Icons / Illustrations<br>Brand Guidelines<br>3x Revisions<br>5 Page Website</p>
+                </div>
+                <div class="section-5-list-phone">
+                    <p>Moodboards<br>Logo Suite<br>Typography<br>Colour Palette<br>5x Custom Icons / Illustrations</p>
+                    <p>Custom Pattern<br>Brand Guidelines<br>3x Revisions<br>5 Page Website</p>
+                </div>
+                <hr>
+                <h2>ENQUIRE FOR CUSTOM QUOTE</h2>
+            </div>
+        </div>
+    </div>
+
+    <!--section 6-->
+    <div class="section-6">
+        <div class="section-6-flex">
+            <div class="section-6-text">
+                <h1>Looking for<br>something else?</h1>
+                <p>We understand that your business may have specific
+                requirements beyond our package options. Whether
+                you're in need of print collateral, packaging design,
+                or social media branding, we're here to help. Get in
+                touch with us today for a custom package tailored to
+                your needs, or request a quote for individual services.
+                </p>
+                <hr>
+                <h2>OTHER DESIGN SERVICES:</h2>
+                <div class="section-6-list">
+                    <p>Business Cards<br>Thank You Cards<br>Menu<br>Price List<br>Flyers<br>Gift Cards</p>
+                    <p>Box Design<br>Bag Design<br>Hang Tag<br>Stickers<br>Wrapping<br>Merchandise</p>
+                    <p>Feed Templates<br>Story Templates<br>Highlight Covers<br>Banners<br>Illustrations<br>Patterns</p>
+                </div>
+                <div class="section-6-list-phone">
+                    <p>Business Cards<br>Thank You Cards<br>Menu<br>Price List<br>Flyers<br>Gift Cards<br>Box Design<br>Bag Design<br>Hang Tag</p>
+                    <p>Stickers<br>Wrapping<br>Merchandise<br>Feed Templates<br>Story Templates<br>Highlight Covers<br>Banners<br>Illustrations<br>Patterns</p>
+                </div>
+                <hr>
+                <h2>ENQUIRE FOR CUSTOM QUOTE</h2>
+            </div>
+            <div class="section-6-img">
+                <img src="images/es-ipad.png">
+            </div>
+        </div>
+    </div>
+
+    <!--section 7-->
+    <div class="section-7">
+        <img class="section-7-img" src="images/how-it-works.svg">
+        <div class="section-7-flex">
+            <div class="section-7-row">
+                <div class="section-7-row-element">
+                    <h3>01.</h3>
+                    <h1>onboarding</h1>
+                </div>
+                <hr>
+                <div class="section-7-row-element">
+                    <h3>02.</h3>
+                    <h1>discovery</h1>
+                </div>
+                <hr>
+                <div class="section-7-row-element">
+                    <h3>03.</h3>
+                    <h1>design</h1>
+                </div>
+            </div>
+            <div class="section-7-row">
+                <div class="section-7-row-element">
+                    <h3>04.</h3>
+                    <h1>refine</h1>
+                </div>
+                <hr>
+                <div class="section-7-row-element">
+                    <h3>05.</h3>
+                    <h1>finalise</h1>
+                </div>
+            </div>
+        </div>
+        <div class="section-7-flex-phone">
+            <div class="section-7-row">
+                <div class="section-7-row-element">
+                    <h3>01.</h3>
+                    <h1>onboarding</h1>
+                </div>
+                <hr>
+                <div class="section-7-row-element">
+                    <h3>02.</h3>
+                    <h1>discovery</h1>
+                </div>
+            </div>
+            <div class="section-7-row">
+                <div class="section-7-row-element">
+                    <h3>03.</h3>
+                    <h1>design</h1>
+                </div>
+            </div>
+            <div class="section-7-row">
+                <div class="section-7-row-element">
+                    <h3>04.</h3>
+                    <h1>refine</h1>
+                </div>
+                <hr>
+                <div class="section-7-row-element">
+                    <h3>05.</h3>
+                    <h1>finalise</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--section 8-->
+    <div class="section-8">
+        <img class="section-8-submark" src="images/submark_1.svg">
+        <h1>our design process</h1>
+        <div class="section-8-container">
+            <div class="section-8-column">
+                <img class="section-8-onboardingimg" src="images/onboarding.svg">
+                <p>Upon receiving your enquiry, I will reach out to
+                begin discussing the details of your project.
+                You'll receive a comprehensive proposal and
+                contract. Once approved, a deposit will secure
+                your spot in my schedule.
+                </p>
+                <img class="section-8-designimg" src="images/design.svg">
+                <p>Now for the exciting part! I'll transform the
+                insights gathered during the Discovery phase
+                into a design that authentically reflects your
+                brand's values and goals. Get ready to witness
+                your vision come to life!
+                </p>
+                <img class="section-8-finaliseimg" src="images/finalise.svg">
+                <p>Once you've approved your new branding, I'll
+                swiftly prepare the files and hand them over to
+                you. It's time to proudly showcase your
+                stunning new design to the world
+                </p>
+            </div>
+            <img class="section-8-divider" src="images/divider.svg">
+            <div class="section-8-column">
+                <img class="section-8-discoveryimg" src="images/discovery.svg">
+                <p>You'll complete a brand questionnaire to
+                provide insights into your business and goals.
+                This step ensures that we're aligned with your
+                vision before proceeding further with the
+                project.
+                </p>
+                <img class="section-8-refineimg" src="images/refine.svg">
+                <p>Now we focus on fine-tuning and perfecting
+                the design to ensure it meets your expectations
+                and vision. This is your opportunity to provide
+                feedback and revisions, ensuring the final
+                product aligns seamlessly with your brand
+                identity and goals.
+                </p>
+            </div>
+        </div>
+        <div class="section-8-container-phone">
+            <div class="section-8-column-phone">
+                <img class="section-8-onboardingimg" src="images/onboarding.svg">
+                <p>Upon receiving your enquiry, I will reach out to
+                begin discussing the details of your project.
+                You'll receive a comprehensive proposal and
+                contract. Once approved, a deposit will secure
+                your spot in my schedule.
+                </p>
+                <img class="section-8-discoveryimg" src="images/discovery.svg">
+                <p>You'll complete a brand questionnaire to
+                provide insights into your business and goals.
+                This step ensures that we're aligned with your
+                vision before proceeding further with the
+                project.
+                </p>
+                <img class="section-8-designimg" src="images/design.svg">
+                <p>Now for the exciting part! I'll transform the
+                insights gathered during the Discovery phase
+                into a design that authentically reflects your
+                brand's values and goals. Get ready to witness
+                your vision come to life!
+                </p>
+                <img class="section-8-refineimg" src="images/refine.svg">
+                <p>Now we focus on fine-tuning and perfecting
+                the design to ensure it meets your expectations
+                and vision. This is your opportunity to provide
+                feedback and revisions, ensuring the final
+                product aligns seamlessly with your brand
+                identity and goals.
+                </p>
+                <img class="section-8-finaliseimg" src="images/finalise.svg">
+                <p>Once you've approved your new branding, I'll
+                swiftly prepare the files and hand them over to
+                you. It's time to proudly showcase your
+                stunning new design to the world
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section 9-->
+    <div class="section-9">
+        <div class="section-9-img-container">
+            <div class="section-9-img-box">
+            <!--insert image-->
+            </div>
+            <div class="section-9-img">
+                <img src="images/desk4.jpeg">
+            </div>
+        </div>
+        <div class="section-9-text">
+            <h1>we can help you to:</h1>
+            <h2>STAND OUT FROM COMPETITORS</h2>
+            <hr>
+            <h2>BUILD TRUST & CREDIBILITY</h2>
+            <hr>
+            <h2>INCREASE BRAND RECOGNITION & RECALL</h2>
+            <hr>
+            <h2>INCREASE CUSTOMER LOYALTY & REPEAT BUSINESS</h2>
+            <hr>
+            <h2>DRIVE BUSINESS GROWTH</h2>
+            <hr>
+            <h2>INCREASE PERCEIVED VALUE OF OFFERING</h2>
+            <hr>
+        </div>
+    </div>
+
+    <!--section 10-->
+    <div class="section-10">
+        <h1>Ready to dive in?</h1>
+        <p>We understand that your business may have specific requirements beyond our package options.
+            Whether you're in need of print collateral, packaging design, or social media branding, we're here to
+            help. Get in touch with us today for a custom package tailored to your needs, or request a quote for
+            individual services.
+        </p>
+        <a href="enquire.html">
+            <button type="button">ENQUIRE NOW</button> 
+        </a>
+        
+    </div>
+
+    <!--footer-->
+    <div class="footer">
+        <div class="footer-column1">
+            <!--add logo-->
+            <img class="footer-logo" src="images/secondary-logo.png">
+        </div>
+        <div class="footer-column2">
+            <h2>LEARN MORE</h2>
+            <a href="home.html" class="link-style">
+                <p>HOME</p>
+            </a>
+            <a href="about.html" class="link-style">
+                <p>ABOUT</p>
+            </a>
+            <a href="portfolio.html" class="link-style">
+                <p>PORTFOLIO</p>
+            </a>
+            <a href="services.html" class="link-style-active">
+                <p>SERVICES</p>
+            </a>
+        </div>
+        <div class="footer-column3">
+            <h2>GET IN TOUCH</h2>
+            <a href="enquire.html" class="link-style">
+                <p>ENQUIRE</p>
+            </a>           
+        </div>
+        <div class="footer-column4">
+            <h2>FOLLOW OUR<br>SOCIALS</h2>
+            <!--add ig and pin icons-->
+            <div>
+                <a href="https://www.instagram.com/creativeclubuk/" target="_blank">
+                    <img class="footer-ig" src="SVG/ig.svg" alt="Instagram">
+                </a>
+                <a href="https://www.pinterest.co.uk/studioaurore/" target="_blank">
+                    <img class="footer-pin" src="SVG/pin.svg" alt="Pinterest">
+                </a>
+            </div>
+        </div>
+        <div class="footer-column5">
+            <!--add submark logo-->
+            <img class="footer-submark" src="images/submark.png">
+        </div>
+    </div>
+</body>
+</html>
